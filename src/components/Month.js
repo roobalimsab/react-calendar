@@ -6,6 +6,7 @@ export default class Month extends React.Component {
     return (
       <div>
         <Week days={["1", "2"]} />
+        <Week days={["3", "4"]} />
       </div>
     )
   }
