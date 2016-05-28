@@ -1,8 +1,8 @@
 import React from 'react';
 import { storiesOf, action } from '@kadira/storybook';
-import Week from '../Week';
+import Month from '../Month';
 
-storiesOf('Week', module)
+storiesOf('Month', module)
   .add('view', () => (
-    <Week days={[...Array(7)].map((x, i) => i)}/>
+    <Month />
   ));

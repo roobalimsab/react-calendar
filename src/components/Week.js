@@ -3,7 +3,7 @@ import Day from './Day';
 
 export default class Week extends React.Component {
   renderDates() {
-    return [...Array(7)].map((x, i) => <Day date={i} />)
+    return this.props.days.map((x, i) => <Day date={x} />)
   }
 
   render() {
