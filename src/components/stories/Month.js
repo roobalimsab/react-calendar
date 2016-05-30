@@ -4,5 +4,5 @@ import Month from '../Month';
 
 storiesOf('Month', module)
   .add('view', () => (
-    <Month />
+    <Month year={2016}/>
   ));
