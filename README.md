@@ -1,4 +1,4 @@
 # react-calendar
 ![alt text][screenshot]
 
-[screenshot]: https://cdn.rawgit.com/roobalimsab/react-calendar/master/Calendar-month-view.png "Screenshot"
+[screenshot]: https://cdn.jsdelivr.net/gh/roobalimsab/react-calendar/Calendar-month-view.png "Screenshot"
